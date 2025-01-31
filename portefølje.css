@@ -1,0 +1,612 @@
+*{
+    text-decoration:none;
+    color:inherit;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+
+    display:grid;
+    overflow-y:scroll;
+
+    margin:0;
+    padding:0;
+
+    text-align:center;
+    align-items:center;
+}
+
+/* page1 start */
+
+.page1{
+    height:1000px;
+    width:100%;
+    align-items:center;
+}
+
+.navbar{
+    background-color: rgb(20, 20, 20);
+    border-bottom:25px solid rgb(40, 40, 40);
+
+    position:static;
+
+    height:100px;
+    width:100%;
+}
+
+.img{
+    display: inline-block;
+
+    border: 8px solid rgb(20, 20, 20);
+    border-radius: 50%;
+    margin-top:50px;
+}
+
+.img img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.buttongroup1{
+    display:grid;
+
+    justify-items:center;
+    align-items:center;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    margin-left:auto;
+    margin-right:auto;
+
+    height:200px;
+    width:380px;
+
+    text-decoration:none;
+}
+
+.buttongroup2{
+    display:grid;
+
+    justify-items:center;
+    align-items:center;
+    
+    margin-left:auto;
+    margin-right:auto;
+
+
+    height:75px;
+    width:190px;
+
+    text-decoration:none;
+}
+#button{
+    display:grid;
+    place-items: center;
+
+
+    border:5px solid rgb(20, 20, 20);
+    border-radius:25%;
+
+    height:50px;
+    width:160px;
+
+    font-size:30px;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+/* page1 ends */
+/* page2 starts */
+
+.page2{
+    height:1000px;
+    width:100%;
+    align-items:center;
+}
+
+.aboutmetittle{
+    display:grid;
+    place-items: center;
+
+  
+    border:5px solid rgb(20, 20, 20);
+    border-radius:25%;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    height:50px;
+    width:200px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+#aboutmetittleid{
+    font-size:40px;
+    text-align:center;
+    margin:0;
+}
+
+.aboutmetext{
+    display:grid;
+    place-items: center;
+
+    border:5px solid rgb(20, 20, 20);
+    border-radius:5%;
+   
+    margin-left:auto;
+    margin-right:auto;
+    
+    margin-top:50px;
+    height:500px;
+    width:700px;
+
+    font-size:15px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+#button {
+    cursor: pointer;
+}
+
+#button:hover {
+    background: rgb(202, 202, 202);
+}
+
+/* page2 ends */
+/* page3 starts */
+
+.page3{
+    height:1000px;
+    width:100%;
+    align-items:center;
+}
+
+.interessertittle{
+    display:grid;
+    place-items: center;
+
+    border:5px solid rgb(20, 20, 20);
+    border-radius:25%;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    height:50px;
+    width:200px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+#interessertittleid{
+    font-size:40px;
+    text-align:center;
+    margin:0;
+}
+
+
+.textpage3{
+
+    display:grid;
+    place-items:center;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    padding:0;
+    margin:0;
+}
+
+
+
+.textpage3:not(#text0){
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+
+    border:5px solid rgb(0, 0, 0);
+    border-radius:25%;
+}
+
+
+#text0.textpage3{
+    display:grid;
+
+    grid-template-columns:repeat(2, 1fr);
+    
+    margin-top:10px;
+
+    height:75%;
+    width:100%;
+}
+
+#bilde{
+    height:400px !important;
+    width:500px !important;
+}
+
+
+#text{
+    height:300px !important;
+    width:400px !important;
+}
+
+
+
+
+/* page3 ends */
+/* page4 starts */
+
+.page4{
+    height:1000px;
+    width:100%;
+    align-items:center;
+}
+
+
+#ferdighetertittleid{
+    font-size:40px;
+    text-align:center;
+    margin:0;
+}
+
+.ferdighetertittle{
+    display:grid;
+    place-items: center;
+
+
+    border:5px solid rgb(20, 20, 20);
+    border-radius:25%;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    height:50px;
+    width:200px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.textpage4{
+
+    display:grid;
+    place-items:center;
+
+    margin-left:auto;
+    margin-right:auto;
+
+
+
+
+    padding:0;
+    margin:0;
+
+    color:white;
+}
+
+
+#text0.textpage4{
+    display:grid;
+    
+
+    grid-template-columns:repeat(2, 1fr);
+
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+
+    height:100vh;
+    width:100%;
+}
+
+.textpage4:not(#text0){
+
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+
+    border:5px solid rgb(0, 0, 0);
+    border-radius:25%;
+
+    margin:50px;
+
+
+}
+
+#ferdighetertext1.textpage4{
+    
+
+    height:400px;
+    width:450px;
+
+
+}
+#ferdighetertittel1.textpage4{
+    
+    font-size:40px;
+    place-items:center;
+
+
+    margin:0;
+    margin-left:10px;
+    margin-right:10px;
+
+    height:75px;
+    width:300px;
+
+    transform: translateY(100px);
+
+}
+
+#textpage4{
+    margin:0;
+}
+
+
+/* page4 ends */
+/* page5 starts */
+
+.page5{
+    height:1350px;
+    width:100%;
+    align-items:center;
+}
+
+.arbeidtittle{
+    display:grid;
+    place-items: center;
+
+
+    border:5px solid rgb(20, 20, 20);
+    border-radius:25%;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    height:50px;
+    width:200px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+#arbeidtittleid{
+    font-size:40px;
+    text-align:center;
+    margin:0;
+
+}.textpage5{
+
+    display:grid;
+    place-items:center;
+
+    margin-left:auto;
+    margin-right:auto;
+
+
+    padding:0;
+    margin:0;
+}
+
+#text0.textpage5{
+    display:grid;
+
+    grid-template-columns:repeat(3, 1fr);
+
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+
+
+    height:80vh;
+    width:75%;
+}
+
+.textpage5:not(#text0){
+
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+
+    border:5px solid rgb(0, 0, 0);
+    border-radius:25%;
+
+    margin:50px;
+}
+
+
+#textleft{
+    transform: translateX(100px);
+
+}
+
+#textright{
+
+    transform: translateX(-100px);
+
+}
+
+#textleft, #textright, #textcenter{
+
+    height:300px;
+    width:175px;
+
+}
+
+#bildeleft{
+
+    transform: translateX(100px);
+  
+
+}
+
+#bilderight{
+
+    transform: translateX(-100px);
+
+}
+
+#bildeleft, #bilderight, #bildecenter{
+
+    height:275px;
+    width:275px;
+
+}
+
+
+
+
+/* page5 ends */
+/* page6 starts */
+
+.page6{
+    height:500px;
+    width:100%;
+    align-items:center;
+}
+
+
+#kontaktmegtittleid{
+    font-size:40px;
+    text-align:center;
+    margin:0;
+}
+
+.kontaktmegtittle{
+    display:grid;
+    place-items: center;
+
+    border:5px solid rgb(20, 20, 20);
+    border-radius:25%;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    height:50px;
+    width:250px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+
+.test{
+
+    
+    height:500px;
+    width:100%;
+
+
+}
+
+
+
+.textpage6{
+
+    display:grid;
+    place-items:center;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    padding:0;
+    margin:0;
+    
+
+
+
+    height:50px;
+    width:250px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+#textcontactme.textpage6{
+    display:grid;
+
+
+    margin-bottom:25px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:75px;
+
+
+
+    height:175px;
+    width:500px;
+
+    border:5px solid rgb(20, 20, 20);
+    border-radius:5%;
+    
+}
+
+.textpage6:not(#textcontactme){
+
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+
+
+
+    margin:50px;
+}
+
+
+.boks{
+    
+    position:relative;
+
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:row;
+
+    gap:100px;
+    
+    grid-template-columns:repeat(3, 1fr);
+    width:750px;
+    height:200px;
+
+    border: 5px solid rgb(0, 0, 0);
+    border-radius:10%;
+
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    
+
+    background-color:white;
+
+    transform: translateY(100px);
+
+
+
+}
+
+
+.imgboks{
+
+    width:100px;
+
+    
+
+
+
+}
+
+
+
+.footer{
+    
+    display:flex;
+    background-color:black;
+
+    height:175px;
+    width:100%;
+    
+    margin-bottom:0;
+    
+    
+    
+}
+
+
+/* page6 ends */
